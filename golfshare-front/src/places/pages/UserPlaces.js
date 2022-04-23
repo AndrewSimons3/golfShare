@@ -11,10 +11,10 @@ const DUMMY_PLACES = [
 			"One of the most famous golf courses in the world on California's west coast",
 		imageUrl:
 			'https://www.pebblebeach.com/content/uploads/20160811-cam-timeout.jpg',
-		address: 'Pebble Beach, Del Monte Forest, CA',
+		address: '1700 17 Mile Dr, Pebble Beach, CA, 93953',
 		location: {
-			lat: 36.5778707,
-			lng: -121.9929942,
+			lat: 36.5687066,
+			lng: -121.9533659,
 		},
 		creator: 'u1',
 	},
@@ -26,10 +26,10 @@ const DUMMY_PLACES = [
 			"One of the most famous golf courses in the world on California's west coast",
 		imageUrl:
 			'https://www.pebblebeach.com/content/uploads/20160811-cam-timeout.jpg',
-		address: 'Pebble Beach, Del Monte Forest, CA',
+		address: '1700 17 Mile Dr, Pebble Beach, CA, 93953',
 		location: {
-			lat: 36.5778707,
-			lng: -121.9929942,
+			lat: 36.5687066,
+			lng: -121.9533659,
 		},
 		creator: 'u2',
 	},
