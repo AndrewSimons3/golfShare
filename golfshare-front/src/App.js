@@ -4,6 +4,7 @@ import NewPlace from './places/pages/NewPlace';
 import MainNavigation from './shared/components/Navigation/MainNavigation';
 import UserPlaces from './places/pages/UserPlaces';
 import UpdatePlace from './places/pages/UpdatePlace';
+import Auth from './user/pages/Auth';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 					<Route path='*' element={<Navigate to='/' replace />} />
 					<Route path='/places/new' element={<NewPlace />} />
 					<Route path='/places/:placeId' element={<UpdatePlace />} />
+					<Route path='/auth' element={<Auth />} />
 				</Routes>
 			</main>
 		</BrowserRouter>

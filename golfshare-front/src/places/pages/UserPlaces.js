@@ -1,6 +1,7 @@
 import React from 'react';
-import PlaceList from '../components/PlaceList';
 import { useParams } from 'react-router-dom';
+
+import PlaceList from '../components/PlaceList';
 
 
 const DUMMY_PLACES = [
@@ -21,7 +22,7 @@ const DUMMY_PLACES = [
 
 	{
 		id: 'g2',
-		title: 'Pebble Beach',
+		title: 'Augusta National',
 		description:
 			"One of the most famous golf courses in the world on California's west coast",
 		imageUrl:
