@@ -1,5 +1,5 @@
 {
-  "name": "golfshare-backend",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,13 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.27.2",
-    "body-parser": "^1.20.0",
-    "express": "^4.18.0",
-    "express-validator": "^6.14.0",
-    "uuid": "^8.3.2"
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "mongoose": "^5.7.8",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^1.19.4"
   }
 }
