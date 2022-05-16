@@ -1,6 +1,6 @@
-import { Fragment } from 'react';
+import React, { useEffect, useState } from 'react';
+
 import UsersList from '../components/UsersList';
-import { useEffect, useState } from 'react';
 import ErrorModal from '../../shared/components/UIElements/ErrorModal';
 import LoadingSpinner from '../../shared/components/UIElements/LoadingSpinner';
 import { useHttpClient } from '../../shared/hooks/http-hook';
@@ -23,7 +23,7 @@ const Users = () => {
 	}, [sendRequest]);
 
 	return (
-		<Fragment>
+		<React.Fragment>
 			<ErrorModal error={error} onClear={clearError} />
 			{isLoading && (
 				<div className='center'>
@@ -31,7 +31,7 @@ const Users = () => {
 				</div>
 			)}
 			{!isLoading && loadedUsers && <UsersList items={loadedUsers} />}
-		</Fragment>
+		</React.Fragment>
 	);
 };
 
