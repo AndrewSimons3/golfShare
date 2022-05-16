@@ -40,7 +40,7 @@ app.use((error, req, res, next) => {
 
 mongoose
 	.connect(
-		'mongodb+srv://Andrew:5TUnoAWKdpIoHSXq@cluster0.liswm.mongodb.net/courses?retryWrites=true&w=majority',
+		'mongodb+srv://Andrew:5TUnoAWKdpIoHSXq@cluster0.liswm.mongodb.net/mern?retryWrites=true&w=majority',
 		{ useUnifiedTopology: true, useNewUrlParser: true }
 	)
 	.then(() => {
